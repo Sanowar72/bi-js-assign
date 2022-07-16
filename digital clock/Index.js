@@ -10,11 +10,11 @@
 
 // var session = 'Am';
 
-function showTime(){
+(function showTime(){
     var clockTime = new Date().toLocaleTimeString([],{hour:'2-digit', minute: '2-digit', second: '2-digit'})
     document.getElementById('clockcontainer').innerText = 
     clockTime;
-}
+})();
 
 
 
